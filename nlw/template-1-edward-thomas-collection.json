@@ -1,0 +1,140 @@
+{
+  "type": "template-1-edward-thomas-collection",
+  "metadata": {
+    "label": "Edward Thomas Literary Archive",
+    "description": "An export of project edward-thomas-collection",
+    "version": "1.0.0"
+  },
+  "configuration": {
+    "defaults": {
+      "allowCollectionNavigation": true,
+      "allowManifestNavigation": true,
+      "allowCanvasNavigation": true,
+      "randomlyAssignCanvas": false,
+      "priorityRandomness": true,
+      "claimGranularity": "canvas",
+      "maxContributionsPerResource": 1,
+      "allowSubmissionsWhenCanvasComplete": false,
+      "randomlyAssignReviewer": false,
+      "manuallyAssignedReviewer": null,
+      "adminsAreReviewers": true,
+      "hideCompletedResources": false,
+      "revisionApprovalsRequired": 1,
+      "contributionWarningTime": false,
+      "skipAutomaticOCRImport": false,
+      "allowPersonalNotes": true,
+      "defaultEditorOrientation": "horizontal",
+      "skipManifestListingPage": false,
+      "hideStatistics": false,
+      "hideProjectCollectionNavigation": false,
+      "hideProjectManifestNavigation": true,
+      "searchStrategy": "websearch",
+      "hideManifestMetadataOnCanvas": false,
+      "hideCanvasThumbnailNavigation": false,
+      "showSearchFacetCount": false,
+      "miradorCanvasPage": false,
+      "universalViewerCanvasPage": false,
+      "contributionMode": "annotation",
+      "shortExpiryTime": "10",
+      "longExpiryTime": "1440",
+      "modelPageShowAnnotations": "when-open",
+      "modelPageShowDocument": "when-open",
+      "atlasBackground": "#c9c9c9",
+      "canvasPageShowAnnotations": "when-open",
+      "canvasPageShowDocument": "when-open",
+      "forkMode": false,
+      "reviewOptions": {
+        "allowMerging": false
+      },
+      "modelPageOptions": {
+        "fixedTranscriptionBar": false,
+        "preventContributionAfterRejection": false,
+        "preventContributionAfterSubmission": false,
+        "preventMultipleUserSubmissionsPerResource": false,
+        "preventContributionAfterManifestUnassign": false,
+        "hideViewerControls": false,
+        "disablePreview": true,
+        "disableNextCanvas": true,
+        "enableRotation": true
+      },
+      "projectPageOptions": {
+        "hideStartContributing": true,
+        "hideSearchButton": true,
+        "hideRandomManifest": true,
+        "hideRandomCanvas": false,
+        "reviewerDashboard": true
+      },
+      "manifestPageOptions": {
+        "hideStartContributing": false,
+        "hideOpenInMirador": true,
+        "hideSearchButton": true,
+        "hideRandomCanvas": true,
+        "hideFilterImages": false,
+        "directModelPage": false
+      },
+      "headerOptions": {
+        "hideSiteTitle": false,
+        "hideProjectsLink": false,
+        "hideCollectionsLink": true,
+        "hideDashboardLink": false,
+        "hidePageNavLinks": false,
+        "hideSearchBar": false
+      },
+      "searchOptions": {
+        "nonLatinFulltext": false,
+        "searchMultipleFields": false,
+        "onlyShowManifests": false
+      },
+      "activityStreams": {
+        "manifest": true,
+        "canvas": false,
+        "curated": true,
+        "published": false
+      },
+      "metadataSuggestions": {
+        "collection": false,
+        "manifest": false,
+        "canvas": false
+      }
+    }
+  },
+  "captureModel": {
+    "document": {
+      "id": "2db3b609-988a-4bf6-bc03-d4ac921d817c",
+      "type": "entity",
+      "label": "Edward Thomas Collection",
+      "properties": {
+        "transcription": [
+          {
+            "id": "49ddc35e-74f6-4963-adf5-d6ab8800b56b",
+            "type": "text-field",
+            "label": "Transcription",
+            "value": null,
+            "minLines": 5,
+            "multiline": true,
+            "dataSources": [
+              "plaintext-source"
+            ],
+            "description": "Longer description can go here"
+          }
+        ]
+      }
+    },
+    "structure": {
+      "id": "9ace451a-b081-45b3-b183-3210fdcdf742",
+      "type": "choice",
+      "label": "Edward Thomas Collection",
+      "items": [
+        {
+          "id": "d0d5578f-c235-4985-a2fc-8f38b73cc9f0",
+          "type": "model",
+          "label": "Default",
+          "fields": [
+            "transcription"
+          ],
+          "instructions": "Instructions to users"
+        }
+      ]
+    }
+  }
+}
