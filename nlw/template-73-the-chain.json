@@ -1,0 +1,555 @@
+{
+  "type": "template-73-the-chain",
+  "metadata": {
+    "label": "The chain",
+    "description": "An export of project the-chain",
+    "version": "1.0.0"
+  },
+  "configuration": {
+    "defaults": {
+      "allowCollectionNavigation": true,
+      "allowManifestNavigation": true,
+      "allowCanvasNavigation": true,
+      "randomlyAssignCanvas": false,
+      "priorityRandomness": true,
+      "claimGranularity": "canvas",
+      "maxContributionsPerResource": "5",
+      "allowSubmissionsWhenCanvasComplete": false,
+      "randomlyAssignReviewer": false,
+      "manuallyAssignedReviewer": null,
+      "adminsAreReviewers": false,
+      "hideCompletedResources": false,
+      "revisionApprovalsRequired": 1,
+      "contributionWarningTime": false,
+      "skipAutomaticOCRImport": false,
+      "allowPersonalNotes": false,
+      "defaultEditorOrientation": "horizontal",
+      "skipManifestListingPage": false,
+      "hideStatistics": false,
+      "hideProjectCollectionNavigation": false,
+      "hideProjectManifestNavigation": false,
+      "searchStrategy": "websearch",
+      "hideManifestMetadataOnCanvas": false,
+      "hideCanvasThumbnailNavigation": false,
+      "showSearchFacetCount": false,
+      "miradorCanvasPage": false,
+      "universalViewerCanvasPage": false,
+      "contributionMode": "annotation",
+      "shortExpiryTime": "10",
+      "longExpiryTime": "1440",
+      "modelPageShowAnnotations": "when-open",
+      "modelPageShowDocument": "when-open",
+      "atlasBackground": "#f9f9f9",
+      "canvasPageShowAnnotations": "when-open",
+      "canvasPageShowDocument": "when-open",
+      "forkMode": false,
+      "reviewOptions": {
+        "allowMerging": false
+      },
+      "modelPageOptions": {
+        "fixedTranscriptionBar": false,
+        "preventContributionAfterRejection": false,
+        "preventContributionAfterSubmission": false,
+        "preventMultipleUserSubmissionsPerResource": false,
+        "preventContributionAfterManifestUnassign": false,
+        "hideViewerControls": false,
+        "enableRotation": true,
+        "disablePreview": true,
+        "disableNextCanvas": true
+      },
+      "projectPageOptions": {
+        "hideStartContributing": true,
+        "hideSearchButton": true,
+        "hideRandomManifest": false,
+        "hideRandomCanvas": false,
+        "reviewerDashboard": true
+      },
+      "manifestPageOptions": {
+        "hideStartContributing": true,
+        "hideOpenInMirador": true,
+        "hideSearchButton": false,
+        "hideRandomCanvas": false,
+        "hideFilterImages": false,
+        "directModelPage": true
+      },
+      "headerOptions": {
+        "hideSiteTitle": false,
+        "hideProjectsLink": true,
+        "hideCollectionsLink": false,
+        "hideDashboardLink": false,
+        "hidePageNavLinks": false,
+        "hideSearchBar": false
+      },
+      "searchOptions": {
+        "nonLatinFulltext": false,
+        "searchMultipleFields": false,
+        "onlyShowManifests": false
+      },
+      "activityStreams": {
+        "manifest": true,
+        "canvas": false,
+        "curated": true,
+        "published": false
+      },
+      "metadataSuggestions": {
+        "collection": false,
+        "manifest": false,
+        "canvas": false
+      }
+    }
+  },
+  "captureModel": {
+    "document": {
+      "id": "fd131c8d-78a9-4128-8d49-4be504489ea5",
+      "type": "entity",
+      "label": "The chain",
+      "properties": {
+        "Daily Data": [
+          {
+            "id": "e0e43d32-b525-45b2-bcdd-9e5862ff467f",
+            "type": "entity",
+            "label": "Daily Data",
+            "properties": {
+              "Max": [
+                {
+                  "id": "27bb94e0-5513-4cb9-a06d-822fb4b1131e",
+                  "type": "text-field",
+                  "label": "Thermometer reading 1",
+                  "value": "",
+                  "description": "The reading is taken from the top tip of the vertical line"
+                }
+              ],
+              "Min": [
+                {
+                  "id": "8deb984d-08e4-4b3b-b7ae-a9c7e77ec724",
+                  "type": "text-field",
+                  "label": "Thermometer reading 2",
+                  "value": "",
+                  "description": "If there are only two thermometer readings leave this box blank (refer to guidelines)"
+                }
+              ],
+              "1:30": [
+                {
+                  "id": "8c4d7eb2-d579-48b5-a8fd-216d6a2c570e",
+                  "type": "text-field",
+                  "label": "Barometer reading 2",
+                  "value": "",
+                  "description": "Usually marked as 1.30.  If there are only two barometer readings, this field should be left blank and the second reading put into box 3 below.",
+                  "previewInline": true
+                }
+              ],
+              "6:30": [
+                {
+                  "id": "5d7e89ec-52b2-4c48-bb99-ae0eceaa6852",
+                  "type": "text-field",
+                  "label": "Barometer reading 3",
+                  "value": "",
+                  "description": "Usually shown as 6.30 reading. Or the second reading if only two are present."
+                }
+              ],
+              "8.30": [
+                {
+                  "id": "9bd3315f-aa4b-4bc5-89bf-eaa63976c4be",
+                  "type": "text-field",
+                  "label": "Barometer Reading 1",
+                  "value": "",
+                  "description": "This will either be shown as 8.30 or reading 1."
+                }
+              ],
+              "Thermometer reading 3": [
+                {
+                  "id": "8f5ad2ee-fa84-4ddc-8f75-7cf39819fcb9",
+                  "type": "text-field",
+                  "label": "Thermometer reading 3",
+                  "value": ""
+                }
+              ],
+              "Date of Entry (DD/MM/YYYY)": [
+                {
+                  "id": "ecd57401-d1c6-4ea2-be91-bd2b7643aab1",
+                  "type": "text-field",
+                  "label": "Date of Entry (DD/MM/YYYY)",
+                  "value": "",
+                  "description": "",
+                  "placeholder": "Enter date in format DD/MM/YYYY"
+                }
+              ]
+            }
+          }
+        ],
+        "Annual Data": [
+          {
+            "id": "21ded1d9-b57b-4442-8a9d-0ed239e9f119",
+            "type": "entity",
+            "label": "Annual Data",
+            "properties": {
+              "Date": [
+                {
+                  "id": "9bb07000-11d8-4557-a5de-56172f34d731",
+                  "type": "text-field",
+                  "label": "Date of entry (MM/YYYY)",
+                  "value": "",
+                  "multiline": false,
+                  "placeholder": "MM/YYYY",
+                  "allowMultiple": false
+                }
+              ],
+              "Day temp": [
+                {
+                  "id": "3a6fa230-3187-4da7-bc29-9e09541d8feb",
+                  "type": "text-field",
+                  "label": "Highest Temp",
+                  "value": "",
+                  "description": "Highest Day Temp (H.D)",
+                  "allowMultiple": false
+                }
+              ],
+              "Means HD": [
+                {
+                  "id": "5b640df0-b441-4fea-8992-fcb88fb87976",
+                  "type": "text-field",
+                  "label": "Means of H.D. temp",
+                  "value": "",
+                  "allowMultiple": false
+                }
+              ],
+              "rainfall": [
+                {
+                  "id": "78f0ea59-a72a-4479-82ab-0227e858b567",
+                  "type": "text-field",
+                  "label": "Monthly rainfall",
+                  "value": "",
+                  "allowMultiple": false
+                }
+              ],
+              "Any other": [
+                {
+                  "id": "7e761934-a95c-4ae4-a71e-b8a39cac1065",
+                  "type": "text-field",
+                  "label": "Any other data",
+                  "value": "",
+                  "description": "Other data such as 25yrl total. Please enter data as \"title - data\" for example \"25yr total - 4inches\"",
+                  "allowMultiple": false
+                }
+              ],
+              "rain days": [
+                {
+                  "id": "ddfe5626-04e0-4c13-91c5-526cebc536e1",
+                  "type": "text-field",
+                  "label": "Number of days rain fell",
+                  "value": "",
+                  "multiline": false,
+                  "allowMultiple": false
+                }
+              ],
+              "Mean month": [
+                {
+                  "id": "6425ad3a-25c3-4d2c-843a-9b40d88f9650",
+                  "type": "text-field",
+                  "label": "Means of temp for Month",
+                  "value": "",
+                  "allowMultiple": false
+                }
+              ],
+              "Mean night": [
+                {
+                  "id": "3a2dde16-887c-41b3-904b-d1f91fbce057",
+                  "type": "text-field",
+                  "label": "Means of L.D temp",
+                  "value": "",
+                  "allowMultiple": false
+                }
+              ],
+              "Annual rain": [
+                {
+                  "id": "36629e1c-9faa-4812-a619-888c334a69f3",
+                  "type": "text-field",
+                  "label": "Annual rainfall total",
+                  "value": "",
+                  "description": "This will be shown under the December totals"
+                }
+              ],
+              "Lowest temp": [
+                {
+                  "id": "7fbe1428-7a91-45ec-913b-8aafc6393277",
+                  "type": "text-field",
+                  "label": "Night Temp",
+                  "value": "",
+                  "description": "Lowest night temperature (L.N.)",
+                  "allowMultiple": false
+                }
+              ]
+            }
+          }
+        ],
+        "Diary Entry": [
+          {
+            "id": "5725567c-4bff-47bd-9111-52814c804c7c",
+            "type": "entity",
+            "label": "Diary Entry",
+            "properties": {
+              "Date": [
+                {
+                  "id": "f94efc02-7903-400d-8775-dc71574d2162",
+                  "type": "text-field",
+                  "label": "Date of entry ",
+                  "value": "",
+                  "description": "Day of the diary entry, or the date the week starts if entry covers the whole week.",
+                  "placeholder": "Enter date in format DD/MM/YYYY"
+                }
+              ],
+              "weekly diary": [
+                {
+                  "id": "ec4fbabe-c5e0-49f2-8aa3-adb3232595d9",
+                  "type": "checkbox-field",
+                  "label": "Weekly diary?",
+                  "value": false,
+                  "inlineLabel": "Tick this box if diary entry covers the whole week"
+                }
+              ],
+              "Transcription": [
+                {
+                  "id": "b9036ac1-6f3a-4b0e-9bd5-05941fb7a800",
+                  "type": "text-field",
+                  "label": "Transcribe the diary entry",
+                  "value": "",
+                  "multiline": true,
+                  "description": "You can use the rotate button on the image to make reading the data easier"
+                }
+              ]
+            }
+          }
+        ],
+        "Weekly Data": [
+          {
+            "id": "5ff09744-6be3-49e4-a530-17abb229b7ad",
+            "type": "entity",
+            "label": "Weekly Data",
+            "properties": {
+              "Date": [
+                {
+                  "id": "84e254f3-de7a-4b54-868a-cfb2b37ebe6c",
+                  "type": "text-field",
+                  "label": "Week Commencing",
+                  "value": "",
+                  "description": "Sunday date as DD/MM/YYYY",
+                  "placeholder": "DD/MM/YYYY",
+                  "allowMultiple": false
+                }
+              ],
+              "rainfall": [
+                {
+                  "id": "d0c8ee73-85fd-49d6-8e19-805d8533837d",
+                  "type": "text-field",
+                  "label": "Total rainfall",
+                  "value": "",
+                  "description": "Only input the total rainfall figure, which can be found in the bottom right hand corner of the page"
+                }
+              ],
+              "Weekly Max": [
+                {
+                  "id": "4530c99a-48c0-491d-9781-fce2e44b11c3",
+                  "type": "text-field",
+                  "label": "Thermometer 1",
+                  "value": "",
+                  "description": "This will either be the first reading or the Min avg depending on the page."
+                }
+              ],
+              "Weekly Min": [
+                {
+                  "id": "29001ade-d3d4-400c-8771-ab5508d99283",
+                  "type": "text-field",
+                  "label": "Thermometer 2",
+                  "value": "",
+                  "description": "If there are just Min and Max readings, leave this blank."
+                }
+              ],
+              "Eilirs data": [
+                {
+                  "id": "197e5d4a-7528-425a-9f6c-71ff8ea041a0",
+                  "type": "text-field",
+                  "label": "Thermometer 3",
+                  "value": "",
+                  "description": "This will either be the last avg. reading or the Max avg depending on the page."
+                }
+              ]
+            }
+          }
+        ],
+        "Transcribe Insert": [
+          {
+            "id": "380d0f4e-b07b-45d8-91d4-26958faa24e9",
+            "type": "entity",
+            "label": "Transcribe Insert",
+            "properties": {
+              "Date": [
+                {
+                  "id": "fef8574c-10ba-47e3-810e-80068f60402c",
+                  "type": "text-field",
+                  "label": "Date of insert",
+                  "value": "",
+                  "description": "Should be tied to the date of the register its attached too. Iff unsure then just put the day, month or year you can identify and use ? in replace of those missing parts of the date. ",
+                  "placeholder": "DD/MM/YYYY - e.g  ??/03/??54  "
+                }
+              ],
+              "type": [
+                {
+                  "id": "79283665-3616-4a7e-9013-41f3e619f4b9",
+                  "type": "dropdown-field",
+                  "label": "Type of Item",
+                  "value": null,
+                  "options": [
+                    {
+                      "text": "Newspaper Cutting",
+                      "value": "Newspaper Cutting"
+                    },
+                    {
+                      "text": "Programme",
+                      "value": "Programme"
+                    },
+                    {
+                      "text": "Leaflet",
+                      "value": "Leaflet"
+                    },
+                    {
+                      "text": "Invitation",
+                      "value": "Invitation"
+                    },
+                    {
+                      "text": "Journal",
+                      "value": "Journal"
+                    },
+                    {
+                      "text": "Other",
+                      "value": "Other"
+                    },
+                    {
+                      "text": "",
+                      "value": ""
+                    }
+                  ],
+                  "description": "Select the type of item from below",
+                  "placeholder": "Select from list"
+                }
+              ],
+              "transcription": [
+                {
+                  "id": "f6497085-a383-48f9-94b7-a9d7a5f89818",
+                  "type": "text-field",
+                  "label": "Transcribe item",
+                  "value": "",
+                  "multiline": true,
+                  "description": "If the insert is very long,(e,g a newpaper page) a synopsis of the text will suffice.",
+                  "previewInline": true
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "structure": {
+      "id": "4d80a9cb-91b9-4f87-9db7-2249ed714594",
+      "type": "choice",
+      "description": "Here are some choices.",
+      "profile": [
+        "tabs"
+      ],
+      "label": "The Chain",
+      "items": [
+        {
+          "id": "0b8b29f5-cff6-410b-b153-b5b4f25fbcd6",
+          "type": "model",
+          "description": "Transcribe Daily Data",
+          "label": "Daily Data",
+          "fields": [
+            [
+              "Daily Data",
+              [
+                "Date of Entry (DD/MM/YYYY)",
+                "8.30",
+                "1:30",
+                "6:30",
+                "Max",
+                "Min",
+                "Thermometer reading 3"
+              ]
+            ]
+          ],
+          "instructions": "The barometer readings are shown as horizontal lines on the image, and the thermometer readings are shown as vertical lines. If you are unsure of any fields please consult the guidelines."
+        },
+        {
+          "id": "ebe305af-56e8-4401-8806-44643907e60c",
+          "type": "model",
+          "label": "Transcribe diary",
+          "fields": [
+            [
+              "Diary Entry",
+              [
+                "Date",
+                "Transcription",
+                "weekly diary"
+              ]
+            ]
+          ],
+          "description": "",
+          "instructions": "Record the date of the entry, as found along the top line of the image. Transcribe the diary entry (which is normally written vertically in each column). Use the rotate button to help read the diary entry."
+        },
+        {
+          "id": "24e70681-81c0-4668-bd9c-fdd5799ec07a",
+          "type": "model",
+          "label": "Weekly Data",
+          "fields": [
+            [
+              "Weekly Data",
+              [
+                "Date",
+                "Weekly Max",
+                "Weekly Min",
+                "Eilirs data",
+                "rainfall"
+              ]
+            ]
+          ]
+        },
+        {
+          "id": "71df06d2-74c4-4d5c-9732-70acb386cb64",
+          "type": "model",
+          "label": "Annual Data",
+          "fields": [
+            [
+              "Annual Data",
+              [
+                "Date",
+                "Day temp",
+                "Lowest temp",
+                "Means HD",
+                "Mean night",
+                "Mean month",
+                "rainfall",
+                "rain days",
+                "Annual rain",
+                "Any other"
+              ]
+            ]
+          ]
+        },
+        {
+          "id": "52d994fe-d138-4b0d-a642-d312c26c0820",
+          "type": "model",
+          "label": "Transcribe insert",
+          "fields": [
+            [
+              "Transcribe Insert",
+              [
+                "Date",
+                "type",
+                "transcription"
+              ]
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}
