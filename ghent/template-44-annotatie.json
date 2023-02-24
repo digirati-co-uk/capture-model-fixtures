@@ -1,0 +1,194 @@
+{
+  "type": "template-44-annotatie",
+  "metadata": {
+    "label": "Annotatie (NL)",
+    "description": "An export of project annotatie",
+    "version": "1.0.0"
+  },
+  "configuration": {
+    "defaults": {
+      "allowCollectionNavigation": true,
+      "allowManifestNavigation": true,
+      "allowCanvasNavigation": true,
+      "randomlyAssignCanvas": false,
+      "priorityRandomness": true,
+      "claimGranularity": "canvas",
+      "maxContributionsPerResource": false,
+      "allowSubmissionsWhenCanvasComplete": true,
+      "randomlyAssignReviewer": false,
+      "manuallyAssignedReviewer": null,
+      "adminsAreReviewers": true,
+      "hideCompletedResources": false,
+      "revisionApprovalsRequired": 20,
+      "contributionWarningTime": false,
+      "skipAutomaticOCRImport": false,
+      "allowPersonalNotes": false,
+      "defaultEditorOrientation": "horizontal",
+      "skipManifestListingPage": false,
+      "hideStatistics": false,
+      "hideProjectCollectionNavigation": false,
+      "hideProjectManifestNavigation": false,
+      "searchStrategy": "websearch",
+      "hideManifestMetadataOnCanvas": false,
+      "hideCanvasThumbnailNavigation": false,
+      "showSearchFacetCount": false,
+      "miradorCanvasPage": false,
+      "universalViewerCanvasPage": false,
+      "contributionMode": "annotation",
+      "shortExpiryTime": "10",
+      "longExpiryTime": "1440",
+      "modelPageShowAnnotations": "when-open",
+      "modelPageShowDocument": "when-open",
+      "atlasBackground": "#f9f9f9",
+      "canvasPageShowAnnotations": "when-open",
+      "canvasPageShowDocument": "when-open",
+      "reviewOptions": {
+        "allowMerging": false
+      },
+      "modelPageOptions": {
+        "fixedTranscriptionBar": false,
+        "preventContributionAfterRejection": false,
+        "preventContributionAfterSubmission": false,
+        "preventMultipleUserSubmissionsPerResource": false,
+        "preventContributionAfterManifestUnassign": false,
+        "hideViewerControls": false
+      },
+      "projectPageOptions": {
+        "hideStartContributing": false,
+        "hideSearchButton": false,
+        "hideRandomManifest": true,
+        "hideRandomCanvas": true,
+        "reviewerDashboard": false
+      },
+      "manifestPageOptions": {
+        "hideStartContributing": false,
+        "hideOpenInMirador": false,
+        "hideSearchButton": false,
+        "hideRandomCanvas": false,
+        "hideFilterImages": false,
+        "directModelPage": false
+      },
+      "headerOptions": {
+        "hideSiteTitle": false,
+        "hideProjectsLink": false,
+        "hideCollectionsLink": false,
+        "hideDashboardLink": false,
+        "hidePageNavLinks": false,
+        "hideSearchBar": false
+      },
+      "searchOptions": {
+        "nonLatinFulltext": false,
+        "searchMultipleFields": false,
+        "onlyShowManifests": false
+      },
+      "activityStreams": {
+        "manifest": true,
+        "canvas": false,
+        "curated": true,
+        "published": false
+      },
+      "metadataSuggestions": {
+        "collection": false,
+        "manifest": false,
+        "canvas": false
+      }
+    }
+  },
+  "captureModel": {
+    "document": {
+      "id": "e22e63d8-a6ee-4471-901a-d492cd404727",
+      "type": "entity",
+      "label": "Annotatie",
+      "properties": {
+        "kleur": [
+          {
+            "id": "a7ae9984-894d-43bc-b02b-f57cf90e6d99",
+            "type": "checkbox-field",
+            "label": "Kleur?",
+            "value": false,
+            "description": "Is de prentbriefkaart in kleur? Vink dan het vakje aan."
+          }
+        ],
+        "mensen": [
+          {
+            "id": "e57e066b-2172-43ca-b237-cf12c0290755",
+            "type": "checkbox-field",
+            "label": "Mensen?",
+            "value": "",
+            "selector": {
+              "id": "b325356e-d67f-4832-b0e8-7eb8478f29c3",
+              "type": "box-selector",
+              "state": null,
+              "required": true
+            },
+            "description": "Zie je mensen op de prentbriefkaart? Duid ze eerst aan op het beeld en vink daarna het vakje aan.",
+            "allowMultiple": true
+          }
+        ],
+        "plaats": [
+          {
+            "id": "337e18ee-837e-42b2-990c-3d8c71139f74",
+            "type": "autocomplete-field",
+            "label": "Plaats?",
+            "value": null,
+            "dataSource": "https://staging.gentgemapt.ugent.be/backend/api/gentgemapt/place/lookup?t=%",
+            "description": "Welke plaats herken jij op de prentbriefkaart? Kies ze uit de lijst. Je kan er meerdere kiezen.",
+            "allowMultiple": true,
+            "requestInitial": true
+          }
+        ],
+        "datering": [
+          {
+            "id": "05a8f02c-e841-40e6-b581-7881249814e0",
+            "type": "checkbox-list-field",
+            "label": "Datering?",
+            "value": false,
+            "options": [
+              {
+                "label": " 1850-1900",
+                "value": "1850-1900"
+              },
+              {
+                "label": " 1901-1950",
+                "value": "1901-1950"
+              },
+              {
+                "label": " 1951-2000",
+                "value": "1951-2000"
+              }
+            ],
+            "description": "Weet jij welke periode de prentbriefkaart toont? Vink dan het juiste tijdvak aan."
+          }
+        ],
+        "franse naam": [
+          {
+            "id": "a314fb49-135b-4d1d-9775-9138da69fc7e",
+            "type": "text-field",
+            "label": "Franse of alternatieve naam?",
+            "value": "",
+            "description": "Noteer de Franse of alternatieve naam van de plaats, als die op de kaart staat."
+          }
+        ]
+      }
+    },
+    "structure": {
+      "id": "aafb80b3-9ccc-4e44-8c73-df59b6b43d6a",
+      "type": "choice",
+      "label": "Annotatie",
+      "items": [
+        {
+          "id": "d40b436f-b2ed-4ffe-a754-0939b22b4676",
+          "type": "model",
+          "label": "Default",
+          "fields": [
+            "plaats",
+            "franse naam",
+            "datering",
+            "kleur",
+            "mensen"
+          ]
+        }
+      ]
+    }
+  }
+}

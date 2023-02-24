@@ -1,0 +1,175 @@
+{
+  "type": "template-58-verrijking",
+  "metadata": {
+    "label": "Verrijking",
+    "description": "An export of project verrijking",
+    "version": "1.0.0"
+  },
+  "configuration": {
+    "defaults": {
+      "allowCollectionNavigation": true,
+      "allowManifestNavigation": true,
+      "allowCanvasNavigation": true,
+      "randomlyAssignCanvas": false,
+      "priorityRandomness": true,
+      "claimGranularity": "canvas",
+      "maxContributionsPerResource": false,
+      "allowSubmissionsWhenCanvasComplete": true,
+      "randomlyAssignReviewer": false,
+      "manuallyAssignedReviewer": null,
+      "adminsAreReviewers": true,
+      "hideCompletedResources": false,
+      "revisionApprovalsRequired": 20,
+      "contributionWarningTime": false,
+      "skipAutomaticOCRImport": false,
+      "allowPersonalNotes": false,
+      "defaultEditorOrientation": "horizontal",
+      "skipManifestListingPage": false,
+      "hideStatistics": false,
+      "hideProjectCollectionNavigation": false,
+      "hideProjectManifestNavigation": false,
+      "searchStrategy": "websearch",
+      "hideManifestMetadataOnCanvas": false,
+      "hideCanvasThumbnailNavigation": false,
+      "showSearchFacetCount": false,
+      "miradorCanvasPage": false,
+      "universalViewerCanvasPage": false,
+      "contributionMode": "annotation",
+      "shortExpiryTime": "10",
+      "longExpiryTime": "1440",
+      "modelPageShowAnnotations": "when-open",
+      "modelPageShowDocument": "when-open",
+      "atlasBackground": "#f9f9f9",
+      "canvasPageShowAnnotations": "when-open",
+      "canvasPageShowDocument": "when-open",
+      "reviewOptions": {
+        "allowMerging": false
+      },
+      "modelPageOptions": {
+        "fixedTranscriptionBar": false,
+        "preventContributionAfterRejection": false,
+        "preventContributionAfterSubmission": false,
+        "preventMultipleUserSubmissionsPerResource": false,
+        "preventContributionAfterManifestUnassign": false,
+        "hideViewerControls": false,
+        "disablePreview": true
+      },
+      "projectPageOptions": {
+        "hideStartContributing": false,
+        "hideSearchButton": false,
+        "hideRandomManifest": true,
+        "hideRandomCanvas": true,
+        "reviewerDashboard": true
+      },
+      "manifestPageOptions": {
+        "hideStartContributing": false,
+        "hideOpenInMirador": false,
+        "hideSearchButton": false,
+        "hideRandomCanvas": true,
+        "hideFilterImages": false,
+        "directModelPage": false,
+        "showIIIFLogo": true
+      },
+      "headerOptions": {
+        "hideSiteTitle": false,
+        "hideProjectsLink": false,
+        "hideCollectionsLink": false,
+        "hideDashboardLink": false,
+        "hidePageNavLinks": false,
+        "hideSearchBar": false
+      },
+      "searchOptions": {
+        "nonLatinFulltext": false,
+        "searchMultipleFields": false,
+        "onlyShowManifests": false
+      },
+      "activityStreams": {
+        "manifest": true,
+        "canvas": false,
+        "curated": true,
+        "published": false
+      },
+      "metadataSuggestions": {
+        "collection": false,
+        "manifest": false,
+        "canvas": false
+      }
+    }
+  },
+  "captureModel": {
+    "document": {
+      "id": "f6ea0e6a-3498-44d4-865e-b5a32cf012cd",
+      "type": "entity",
+      "label": "Verrijking",
+      "properties": {
+        "Zin": [
+          {
+            "id": "e605c67c-d3bb-4c97-95dc-4a601c3dd333",
+            "type": "entity",
+            "label": "Transcriptie, vertaling en annotatie",
+            "selector": {
+              "id": "9869f075-7af7-45bd-86d4-6d72778245b1",
+              "type": "box-selector",
+              "state": null
+            },
+            "properties": {
+              "Annotatie": [
+                {
+                  "id": "ff6d7c90-8051-4399-a910-d6d5fc71c6c9",
+                  "type": "text-field",
+                  "label": "Annotatie",
+                  "value": "",
+                  "multiline": true
+                }
+              ],
+              "Vertaling": [
+                {
+                  "id": "4cb89b2d-a260-4043-a567-66c2e9468136",
+                  "type": "text-field",
+                  "label": "Vertaling",
+                  "value": "",
+                  "multiline": true
+                }
+              ],
+              "Transcriptie": [
+                {
+                  "id": "ec0824e7-e8ef-4913-b54b-a5eb5f7d4f78",
+                  "type": "text-field",
+                  "label": "Transcriptie",
+                  "value": "",
+                  "multiline": true
+                }
+              ]
+            },
+            "allowMultiple": true
+          }
+        ]
+      }
+    },
+    "structure": {
+      "id": "6426480a-0370-4eee-860d-fe7dea400e01",
+      "label": "Verrijking",
+      "type": "choice",
+      "items": [
+        {
+          "id": "f4db26d9-a792-4f6c-87f4-d8485e5c5aab",
+          "type": "model",
+          "label": "Default",
+          "fields": [
+            [
+              "Zin",
+              [
+                "Annotatie",
+                "Vertaling",
+                "Transcriptie"
+              ]
+            ]
+          ],
+          "modelRoot": [
+            "Zin"
+          ]
+        }
+      ]
+    }
+  }
+}

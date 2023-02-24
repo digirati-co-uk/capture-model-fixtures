@@ -1,0 +1,130 @@
+{
+  "type": "template-27-hof-van-assisen-antwerpen-(1796-1830)",
+  "metadata": {
+    "label": "Hof van Assisen Antwerpen (1796-1850)",
+    "description": "An export of project hof-van-assisen-antwerpen-(1796-1830)",
+    "version": "1.0.0"
+  },
+  "configuration": {
+    "defaults": {
+      "allowCollectionNavigation": true,
+      "allowManifestNavigation": true,
+      "allowCanvasNavigation": true,
+      "randomlyAssignCanvas": false,
+      "priorityRandomness": true,
+      "claimGranularity": "manifest",
+      "maxContributionsPerResource": "1",
+      "allowSubmissionsWhenCanvasComplete": false,
+      "randomlyAssignReviewer": false,
+      "manuallyAssignedReviewer": null,
+      "adminsAreReviewers": true,
+      "hideCompletedResources": true,
+      "revisionApprovalsRequired": 1,
+      "contributionWarningTime": "1209600",
+      "skipAutomaticOCRImport": false,
+      "allowPersonalNotes": false,
+      "defaultEditorOrientation": "horizontal",
+      "skipManifestListingPage": false,
+      "hideStatistics": false,
+      "hideProjectCollectionNavigation": false,
+      "hideProjectManifestNavigation": false,
+      "searchStrategy": "websearch",
+      "hideManifestMetadataOnCanvas": false,
+      "hideCanvasThumbnailNavigation": false,
+      "showSearchFacetCount": false,
+      "miradorCanvasPage": false,
+      "universalViewerCanvasPage": false,
+      "contributionMode": "transcription",
+      "shortExpiryTime": "10",
+      "longExpiryTime": "1440",
+      "modelPageShowAnnotations": "when-open",
+      "modelPageShowDocument": "when-open",
+      "atlasBackground": "#f9f9f9",
+      "canvasPageShowAnnotations": "when-open",
+      "canvasPageShowDocument": "when-open",
+      "reviewOptions": {
+        "allowMerging": false
+      },
+      "modelPageOptions": {
+        "fixedTranscriptionBar": false,
+        "preventContributionAfterRejection": false,
+        "preventContributionAfterSubmission": false,
+        "preventMultipleUserSubmissionsPerResource": false,
+        "preventContributionAfterManifestUnassign": false,
+        "hideViewerControls": false
+      },
+      "projectPageOptions": {
+        "hideStartContributing": false,
+        "hideSearchButton": false,
+        "hideRandomManifest": true,
+        "hideRandomCanvas": true
+      },
+      "manifestPageOptions": {
+        "hideStartContributing": true,
+        "hideOpenInMirador": true,
+        "hideSearchButton": false,
+        "hideRandomCanvas": true,
+        "hideFilterImages": false,
+        "directModelPage": false
+      },
+      "headerOptions": {
+        "hideSiteTitle": false,
+        "hideProjectsLink": false,
+        "hideCollectionsLink": false,
+        "hideDashboardLink": false,
+        "hidePageNavLinks": false,
+        "hideSearchBar": false
+      },
+      "searchOptions": {
+        "nonLatinFulltext": false,
+        "searchMultipleFields": false,
+        "onlyShowManifests": false
+      },
+      "activityStreams": {
+        "manifest": true,
+        "canvas": false,
+        "curated": true,
+        "published": false
+      },
+      "metadataSuggestions": {
+        "collection": false,
+        "manifest": false,
+        "canvas": false
+      }
+    }
+  },
+  "captureModel": {
+    "document": {
+      "id": "24c5bc6b-14b9-4703-bfdc-a8ffc154bb05",
+      "type": "entity",
+      "label": "Hof van Assisen Antwerpen (1796-1850)",
+      "labelledBy": "Transcriptie",
+      "properties": {
+        "Transcriptie": [
+          {
+            "id": "cbd75eca-5651-4efd-b01f-bdb7b8023432",
+            "type": "html-field",
+            "label": "Transcriptie",
+            "value": ""
+          }
+        ]
+      }
+    },
+    "structure": {
+      "id": "08fea817-af9b-4966-9e9b-a45a74646f1e",
+      "type": "choice",
+      "profile": [],
+      "label": "Hof van Assisen Antwerpen (1796-1850)",
+      "items": [
+        {
+          "id": "134ddb26-e686-4901-8dd9-f9025c0c2aae",
+          "type": "model",
+          "label": "Default",
+          "fields": [
+            "Transcriptie"
+          ]
+        }
+      ]
+    }
+  }
+}

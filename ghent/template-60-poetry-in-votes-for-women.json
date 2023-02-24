@@ -1,0 +1,275 @@
+{
+  "type": "template-60-poetry-in-votes-for-women",
+  "metadata": {
+    "label": "Poëzie in Votes for Women",
+    "description": "An export of project poetry-in-votes-for-women",
+    "version": "1.0.0"
+  },
+  "configuration": {
+    "defaults": {
+      "allowCollectionNavigation": true,
+      "allowManifestNavigation": true,
+      "allowCanvasNavigation": true,
+      "randomlyAssignCanvas": false,
+      "priorityRandomness": true,
+      "claimGranularity": "canvas",
+      "maxContributionsPerResource": false,
+      "allowSubmissionsWhenCanvasComplete": false,
+      "randomlyAssignReviewer": false,
+      "manuallyAssignedReviewer": null,
+      "adminsAreReviewers": true,
+      "hideCompletedResources": false,
+      "revisionApprovalsRequired": 20,
+      "contributionWarningTime": false,
+      "skipAutomaticOCRImport": false,
+      "allowPersonalNotes": false,
+      "defaultEditorOrientation": "horizontal",
+      "skipManifestListingPage": false,
+      "hideStatistics": false,
+      "hideProjectCollectionNavigation": false,
+      "hideProjectManifestNavigation": false,
+      "searchStrategy": "websearch",
+      "hideManifestMetadataOnCanvas": false,
+      "hideCanvasThumbnailNavigation": false,
+      "showSearchFacetCount": false,
+      "miradorCanvasPage": false,
+      "universalViewerCanvasPage": false,
+      "contributionMode": "annotation",
+      "shortExpiryTime": "10",
+      "longExpiryTime": "1440",
+      "modelPageShowAnnotations": "when-open",
+      "modelPageShowDocument": "when-open",
+      "atlasBackground": "#f9f9f9",
+      "canvasPageShowAnnotations": "when-open",
+      "canvasPageShowDocument": "when-open",
+      "reviewOptions": {
+        "allowMerging": false
+      },
+      "modelPageOptions": {
+        "fixedTranscriptionBar": false,
+        "preventContributionAfterRejection": false,
+        "preventContributionAfterSubmission": false,
+        "preventMultipleUserSubmissionsPerResource": false,
+        "preventContributionAfterManifestUnassign": false,
+        "hideViewerControls": false
+      },
+      "projectPageOptions": {
+        "hideStartContributing": false,
+        "hideSearchButton": false,
+        "hideRandomManifest": false,
+        "hideRandomCanvas": false,
+        "reviewerDashboard": false
+      },
+      "manifestPageOptions": {
+        "hideStartContributing": false,
+        "hideOpenInMirador": false,
+        "hideSearchButton": false,
+        "hideRandomCanvas": false,
+        "hideFilterImages": false,
+        "directModelPage": false
+      },
+      "headerOptions": {
+        "hideSiteTitle": false,
+        "hideProjectsLink": false,
+        "hideCollectionsLink": false,
+        "hideDashboardLink": false,
+        "hidePageNavLinks": false,
+        "hideSearchBar": false
+      },
+      "searchOptions": {
+        "nonLatinFulltext": false,
+        "searchMultipleFields": false,
+        "onlyShowManifests": false
+      },
+      "activityStreams": {
+        "manifest": true,
+        "canvas": false,
+        "curated": true,
+        "published": false
+      },
+      "metadataSuggestions": {
+        "collection": false,
+        "manifest": false,
+        "canvas": false
+      }
+    }
+  },
+  "captureModel": {
+    "document": {
+      "id": "e9092742-1ae8-43b8-b7ca-1ab925a6ba2d",
+      "type": "entity",
+      "label": "Poetry in Votes for Women",
+      "properties": {
+        "Bron": [
+          {
+            "id": "a71692cd-8f25-4621-b376-e539c827b4ab",
+            "type": "text-field",
+            "label": "Bron",
+            "value": "",
+            "description": "Staat er een bron vermeld waarin het gedicht eerder is verschenen?"
+          }
+        ],
+        "Vorm": [
+          {
+            "id": "b885bceb-9dd5-488b-9873-a6bb8ea1fdf1",
+            "type": "dropdown-field",
+            "label": "Vorm",
+            "options": [
+              {
+                "text": " Ode",
+                "value": "Ode"
+              },
+              {
+                "text": " Sonnet",
+                "value": "Sonnet"
+              },
+              {
+                "text": " Free verse",
+                "value": "Free verse"
+              },
+              {
+                "text": " Haiku",
+                "value": "Haiku"
+              },
+              {
+                "text": " Ballade",
+                "value": "Ballade"
+              },
+              {
+                "text": " Elegie",
+                "value": "Elegie"
+              },
+              {
+                "text": " Weet niet",
+                "value": "Weet niet"
+              }
+            ],
+            "description": "Herken je de vorm van dit gedicht? Selecteer een van de opties "
+          }
+        ],
+        "Thema": [
+          {
+            "id": "32dfbae8-22b0-4e20-810e-c02724b46b6b",
+            "type": "dropdown-field",
+            "label": "Thema",
+            "options": [
+              {
+                "text": " Wereldoorlog I",
+                "value": "Wereldoorlog I"
+              },
+              {
+                "text": " Stemrecht",
+                "value": "Stemrecht"
+              },
+              {
+                "text": " Politiek ",
+                "value": "Politiek"
+              },
+              {
+                "text": " Gevangenschap",
+                "value": "Gevangenschap"
+              },
+              {
+                "text": " Hongerstaking",
+                "value": "Hongerstaking"
+              },
+              {
+                "text": " Volkssoevereiniteit",
+                "value": "Volkssoevereiniteit"
+              },
+              {
+                "text": " Ouderschap",
+                "value": "Ouderschap"
+              },
+              {
+                "text": " Historische figuren",
+                "value": "Historische figuren"
+              },
+              {
+                "text": "",
+                "value": ""
+              }
+            ],
+            "description": "Selecteer een of meer thema's uit het menu",
+            "allowMultiple": true
+          }
+        ],
+        "Titel": [
+          {
+            "id": "05182122-0d61-4995-95cb-55d4f01d79db",
+            "type": "text-field",
+            "label": "Titel",
+            "value": "",
+            "minLines": "",
+            "dataSources": [
+              "plaintext-source"
+            ],
+            "description": "Noteer in dit veld de titel van het gedicht"
+          }
+        ],
+        "Auteur": [
+          {
+            "id": "fb288ab1-65e2-47e5-ad16-d693b86b3833",
+            "type": "text-field",
+            "label": "Auteur",
+            "value": "",
+            "description": "Noteer hier de naam en voornaam van de auteur indien vermeld"
+          }
+        ],
+        "Transcriptie": [
+          {
+            "id": "b137d5d2-dbed-47ad-9950-c78ada6a5945",
+            "type": "text-field",
+            "label": "Transcriptie",
+            "value": "",
+            "minLines": "",
+            "description": "Transcribeer het gedicht. 1 versregel = 1 tekstregel"
+          }
+        ],
+        "Staat er een gedicht op deze pagina?": [
+          {
+            "id": "e5ee48c9-b6a9-48f3-a552-cc7808472fe6",
+            "type": "checkbox-list-field",
+            "label": "Staat er een gedicht op deze pagina?",
+            "value": false,
+            "options": [
+              {
+                "label": " Ja",
+                "value": "Ja"
+              },
+              {
+                "label": " Nee",
+                "value": "Nee"
+              }
+            ],
+            "inlineLabel": "Ja, Ja"
+          }
+        ]
+      }
+    },
+    "structure": {
+      "id": "9c1f71b3-dab6-4bb2-a9ee-9e2ab06a89a1",
+      "label": "Poetry in Votes for Women",
+      "type": "choice",
+      "items": [
+        {
+          "label": "Velden",
+          "description": "",
+          "id": "acffa375-bfe1-4526-853c-21e3015c7011",
+          "type": "model",
+          "fields": [
+            "Staat er een gedicht op deze pagina?",
+            "Titel",
+            "Auteur",
+            "Vorm",
+            "Bron",
+            "Thema",
+            "Transcriptie"
+          ],
+          "instructions": ""
+        }
+      ],
+      "description": "Dit is een project rond poëzie in Votes for Women. "
+    }
+  }
+}

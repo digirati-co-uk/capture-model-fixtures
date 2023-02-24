@@ -1,0 +1,250 @@
+{
+  "type": "template-42-metadata",
+  "metadata": {
+    "label": "Metadata (NL)",
+    "description": "An export of project metadata",
+    "version": "1.0.0"
+  },
+  "configuration": {
+    "defaults": {
+      "allowCollectionNavigation": true,
+      "allowManifestNavigation": true,
+      "allowCanvasNavigation": true,
+      "randomlyAssignCanvas": false,
+      "priorityRandomness": true,
+      "claimGranularity": "canvas",
+      "maxContributionsPerResource": false,
+      "allowSubmissionsWhenCanvasComplete": false,
+      "randomlyAssignReviewer": false,
+      "manuallyAssignedReviewer": null,
+      "adminsAreReviewers": true,
+      "hideCompletedResources": false,
+      "revisionApprovalsRequired": 20,
+      "contributionWarningTime": false,
+      "skipAutomaticOCRImport": false,
+      "allowPersonalNotes": false,
+      "defaultEditorOrientation": "horizontal",
+      "skipManifestListingPage": false,
+      "hideStatistics": false,
+      "hideProjectCollectionNavigation": false,
+      "hideProjectManifestNavigation": false,
+      "searchStrategy": "websearch",
+      "hideManifestMetadataOnCanvas": false,
+      "hideCanvasThumbnailNavigation": false,
+      "showSearchFacetCount": false,
+      "miradorCanvasPage": false,
+      "universalViewerCanvasPage": false,
+      "contributionMode": "annotation",
+      "shortExpiryTime": "10",
+      "longExpiryTime": "1440",
+      "modelPageShowAnnotations": "when-open",
+      "modelPageShowDocument": "when-open",
+      "atlasBackground": "#f9f9f9",
+      "canvasPageShowAnnotations": "when-open",
+      "canvasPageShowDocument": "when-open",
+      "reviewOptions": {
+        "allowMerging": false
+      },
+      "modelPageOptions": {
+        "fixedTranscriptionBar": false,
+        "preventContributionAfterRejection": false,
+        "preventContributionAfterSubmission": true,
+        "preventMultipleUserSubmissionsPerResource": true,
+        "preventContributionAfterManifestUnassign": false,
+        "hideViewerControls": false
+      },
+      "projectPageOptions": {
+        "hideStartContributing": false,
+        "hideSearchButton": false,
+        "hideRandomManifest": false,
+        "hideRandomCanvas": false
+      },
+      "manifestPageOptions": {
+        "hideStartContributing": false,
+        "hideOpenInMirador": false,
+        "hideSearchButton": false,
+        "hideRandomCanvas": false,
+        "hideFilterImages": false,
+        "directModelPage": false,
+        "coveredImages": true,
+        "hideCanvasLabels": true,
+        "showIIIFLogo": true
+      },
+      "headerOptions": {
+        "hideSiteTitle": false,
+        "hideProjectsLink": false,
+        "hideCollectionsLink": false,
+        "hideDashboardLink": false,
+        "hidePageNavLinks": false,
+        "hideSearchBar": false
+      },
+      "searchOptions": {
+        "nonLatinFulltext": false,
+        "searchMultipleFields": false,
+        "onlyShowManifests": true
+      },
+      "activityStreams": {
+        "manifest": true,
+        "canvas": false,
+        "curated": true,
+        "published": false
+      },
+      "metadataSuggestions": {
+        "collection": false,
+        "manifest": true,
+        "canvas": false
+      },
+      "shadow": {
+        "showCaptureModelOnManifest": true
+      }
+    }
+  },
+  "captureModel": {
+    "document": {
+      "id": "746e8a34-fa56-4529-93bb-283acf11498a",
+      "type": "entity",
+      "label": "Metadata",
+      "properties": {
+        "Thema": [
+          {
+            "id": "b87f7bcf-c769-4c5e-936c-0beb588f25ca",
+            "type": "dropdown-field",
+            "label": "Thema",
+            "value": null,
+            "options": [
+              {
+                "text": " Circus",
+                "value": "Circus"
+              },
+              {
+                "text": " Huishouden",
+                "value": "Huishouden"
+              },
+              {
+                "text": " Huisraad",
+                "value": "Huisraad"
+              },
+              {
+                "text": " Legerdienst",
+                "value": "Legerdienst"
+              },
+              {
+                "text": " Levensbeschouwing",
+                "value": "Levensbeschouwing"
+              },
+              {
+                "text": " Levensfasen - jeugd",
+                "value": "Levensfasen - jeugd"
+              },
+              {
+                "text": " Lichaamsverzorging en persoonlijke hygiëne ",
+                "value": "Lichaamsverzorging en persoonlijke hygiëne"
+              },
+              {
+                "text": " Rituelen - dood ",
+                "value": "Rituelen - dood"
+              },
+              {
+                "text": " Rituelen - geboorte ",
+                "value": "Rituelen - geboorte"
+              },
+              {
+                "text": " Rituelen - jaarkalender ",
+                "value": "Rituelen - jaarkalender"
+              },
+              {
+                "text": " Rituelen - overgangsrituelen ",
+                "value": "Rituelen - overgangsrituelen"
+              },
+              {
+                "text": " Rookwaren ",
+                "value": "Rookwaren"
+              },
+              {
+                "text": " School",
+                "value": "School"
+              },
+              {
+                "text": " Spelen",
+                "value": "Spelen "
+              },
+              {
+                "text": " Vrijetijd",
+                "value": "Vrijetijd"
+              },
+              {
+                "text": " Werk ",
+                "value": "Werk"
+              },
+              {
+                "text": "",
+                "value": ""
+              }
+            ],
+            "clearable": true,
+            "description": "Selecteer één of meerdere thema's die passen bij het object",
+            "allowMultiple": true
+          }
+        ],
+        "datering": [
+          {
+            "id": "fe71b238-be07-43f9-a1c1-0939ba705066",
+            "type": "international-field",
+            "label": "Datering",
+            "value": {
+              "none": [
+                ""
+              ]
+            },
+            "description": "In welk decennium/welke decennia werd dit voorwerp gebruikt? Gebruik de volgende syntaxis 'Jaren 19xx'.",
+            "allowMultiple": true
+          }
+        ],
+        "beschrijving": [
+          {
+            "id": "bf4e3e0f-3ff1-491b-8b4b-e102adc18c92",
+            "type": "international-field",
+            "label": "Beschrijving",
+            "value": {
+              "none": [
+                ""
+              ]
+            },
+            "description": "Geef een beknopte beschrijving van wat het object is, met eventueel extra informatie over functie en context. Bijvoorbeeld ‘Elektrische koffiemolen van het merk Moulinex. De koffiemolen wordt gebruikt om koffiebonen te malen en is bestemd voor huishoudelijk gebruik.’"
+          }
+        ],
+        "alternatieve-titel": [
+          {
+            "id": "a16074ff-a74a-4e4d-802b-fd144acaecf9",
+            "type": "international-field",
+            "label": "Alternatieve titel",
+            "value": {
+              "none": [
+                ""
+              ]
+            },
+            "description": "Geef, indien mogelijk, een alternatieve titel aan dit object. Dit moet een korte en duidelijke titel zijn. Bijvoorbeeld 'Elektrische koffiemolen Moulinex'."
+          }
+        ]
+      }
+    },
+    "structure": {
+      "id": "26c265c1-8305-470e-9c68-0c17b5cf0291",
+      "type": "choice",
+      "label": "Metadata",
+      "items": [
+        {
+          "id": "9bfeb7bf-3a10-481a-86d4-4752fee63414",
+          "type": "model",
+          "label": "Default",
+          "fields": [
+            "Thema",
+            "beschrijving",
+            "datering",
+            "alternatieve-titel"
+          ]
+        }
+      ]
+    }
+  }
+}

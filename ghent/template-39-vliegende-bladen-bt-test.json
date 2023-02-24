@@ -1,0 +1,147 @@
+{
+  "type": "template-39-vliegende-bladen-bt-test",
+  "metadata": {
+    "label": "Vliegende Bladen BT test",
+    "description": "An export of project vliegende-bladen-bt-test",
+    "version": "1.0.0"
+  },
+  "configuration": {
+    "defaults": {
+      "allowCollectionNavigation": true,
+      "allowManifestNavigation": true,
+      "allowCanvasNavigation": true,
+      "randomlyAssignCanvas": false,
+      "priorityRandomness": true,
+      "claimGranularity": "canvas",
+      "maxContributionsPerResource": false,
+      "allowSubmissionsWhenCanvasComplete": false,
+      "randomlyAssignReviewer": false,
+      "manuallyAssignedReviewer": null,
+      "adminsAreReviewers": true,
+      "hideCompletedResources": false,
+      "revisionApprovalsRequired": 20,
+      "contributionWarningTime": false,
+      "skipAutomaticOCRImport": false,
+      "allowPersonalNotes": false,
+      "defaultEditorOrientation": "horizontal",
+      "skipManifestListingPage": false,
+      "hideStatistics": false,
+      "hideProjectCollectionNavigation": false,
+      "hideProjectManifestNavigation": false,
+      "searchStrategy": "websearch",
+      "hideManifestMetadataOnCanvas": false,
+      "hideCanvasThumbnailNavigation": false,
+      "showSearchFacetCount": false,
+      "miradorCanvasPage": false,
+      "universalViewerCanvasPage": false,
+      "contributionMode": "annotation",
+      "shortExpiryTime": "10",
+      "longExpiryTime": "1440",
+      "modelPageShowAnnotations": "when-open",
+      "modelPageShowDocument": "when-open",
+      "atlasBackground": "#f9f9f9",
+      "canvasPageShowAnnotations": "when-open",
+      "canvasPageShowDocument": "when-open",
+      "reviewOptions": {
+        "allowMerging": false
+      },
+      "modelPageOptions": {
+        "fixedTranscriptionBar": false,
+        "preventContributionAfterRejection": false,
+        "preventContributionAfterSubmission": true,
+        "preventMultipleUserSubmissionsPerResource": true,
+        "preventContributionAfterManifestUnassign": false,
+        "hideViewerControls": false
+      },
+      "projectPageOptions": {
+        "hideStartContributing": false,
+        "hideSearchButton": false,
+        "hideRandomManifest": false,
+        "hideRandomCanvas": false
+      },
+      "manifestPageOptions": {
+        "hideStartContributing": false,
+        "hideOpenInMirador": false,
+        "hideSearchButton": false,
+        "hideRandomCanvas": false,
+        "hideFilterImages": false,
+        "directModelPage": false,
+        "coveredImages": true,
+        "hideCanvasLabels": true,
+        "showIIIFLogo": true
+      },
+      "headerOptions": {
+        "hideSiteTitle": false,
+        "hideProjectsLink": false,
+        "hideCollectionsLink": false,
+        "hideDashboardLink": false,
+        "hidePageNavLinks": false,
+        "hideSearchBar": false
+      },
+      "searchOptions": {
+        "nonLatinFulltext": false,
+        "searchMultipleFields": false,
+        "onlyShowManifests": true
+      },
+      "activityStreams": {
+        "manifest": true,
+        "canvas": false,
+        "curated": true,
+        "published": false
+      },
+      "metadataSuggestions": {
+        "collection": false,
+        "manifest": false,
+        "canvas": true
+      },
+      "shadow": {
+        "showCaptureModelOnManifest": true
+      }
+    }
+  },
+  "captureModel": {
+    "document": {
+      "id": "3bdc9ce3-4b6d-4372-94fe-87b182b90238",
+      "type": "entity",
+      "label": "Vliegende Bladen BT test",
+      "properties": {
+        "Datum": [
+          {
+            "id": "a7306918-6c06-4e84-a50e-dbc2cc6d5414",
+            "type": "text-field",
+            "label": "Datum",
+            "value": ""
+          }
+        ],
+        "Auteur": [
+          {
+            "id": "6e27de76-59c1-4f0a-af77-6a87c23e3347",
+            "type": "text-field",
+            "label": "Auteur",
+            "value": ""
+          }
+        ]
+      }
+    },
+    "structure": {
+      "id": "7033f655-142c-42c6-a6ab-b93793fb8b10",
+      "type": "choice",
+      "profile": [
+        "tabs"
+      ],
+      "label": "Vliegende Bladen BT test",
+      "items": [
+        {
+          "id": "d050da56-2284-4180-a469-67f875968939",
+          "type": "model",
+          "label": "Metadata ?",
+          "fields": [
+            "Datum",
+            "Auteur"
+          ],
+          "instructions": "Welke datum?"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "type": "template-12-brugse-vrije-gebruikerstest",
+  "metadata": {
+    "label": "Brugse Vrije",
+    "description": "An export of project brugse-vrije-gebruikerstest",
+    "version": "1.0.0"
+  },
+  "configuration": {
+    "defaults": {
+      "allowCollectionNavigation": true,
+      "allowManifestNavigation": true,
+      "allowCanvasNavigation": true,
+      "randomlyAssignCanvas": false,
+      "priorityRandomness": true,
+      "claimGranularity": "manifest",
+      "maxContributionsPerResource": "2",
+      "allowSubmissionsWhenCanvasComplete": false,
+      "randomlyAssignReviewer": false,
+      "manuallyAssignedReviewer": null,
+      "adminsAreReviewers": true,
+      "hideCompletedResources": true,
+      "revisionApprovalsRequired": 1,
+      "contributionWarningTime": false,
+      "skipAutomaticOCRImport": false,
+      "allowPersonalNotes": false,
+      "defaultEditorOrientation": "horizontal",
+      "skipManifestListingPage": false,
+      "hideStatistics": false,
+      "hideProjectCollectionNavigation": false,
+      "hideProjectManifestNavigation": false,
+      "searchStrategy": "websearch",
+      "hideManifestMetadataOnCanvas": true,
+      "hideCanvasThumbnailNavigation": false,
+      "showSearchFacetCount": false,
+      "miradorCanvasPage": false,
+      "universalViewerCanvasPage": false,
+      "contributionMode": "transcription",
+      "shortExpiryTime": "120",
+      "longExpiryTime": "10080",
+      "modelPageShowAnnotations": "when-open",
+      "modelPageShowDocument": "when-open",
+      "atlasBackground": "#f9f9f9",
+      "canvasPageShowAnnotations": "when-open",
+      "canvasPageShowDocument": "when-open",
+      "reviewOptions": {
+        "allowMerging": false
+      },
+      "modelPageOptions": {
+        "fixedTranscriptionBar": true,
+        "preventContributionAfterRejection": false,
+        "preventContributionAfterSubmission": false,
+        "preventMultipleUserSubmissionsPerResource": false,
+        "preventContributionAfterManifestUnassign": false
+      },
+      "projectPageOptions": {
+        "hideStartContributing": false,
+        "hideSearchButton": false,
+        "hideRandomManifest": true,
+        "hideRandomCanvas": true
+      },
+      "manifestPageOptions": {
+        "hideStartContributing": false,
+        "hideOpenInMirador": true,
+        "hideSearchButton": true,
+        "hideRandomCanvas": true,
+        "hideFilterImages": true,
+        "directModelPage": false
+      },
+      "headerOptions": {
+        "hideSiteTitle": false,
+        "hideProjectsLink": true,
+        "hideCollectionsLink": false,
+        "hideDashboardLink": false,
+        "hidePageNavLinks": true,
+        "hideSearchBar": true
+      },
+      "searchOptions": {
+        "nonLatinFulltext": false,
+        "searchMultipleFields": false
+      },
+      "activityStreams": {
+        "manifest": true,
+        "canvas": false,
+        "curated": true,
+        "published": false
+      },
+      "metadataSuggestions": {
+        "collection": false,
+        "manifest": false,
+        "canvas": false
+      }
+    }
+  },
+  "captureModel": {
+    "document": {
+      "id": "0829fab3-0d19-46a5-aed1-20f7d1c79f0c",
+      "type": "entity",
+      "label": "Brugse Vrije - gebruikerstest",
+      "properties": {
+        "transcriptie": [
+          {
+            "id": "9edc6051-4683-4958-a2bb-3f4cf821a061",
+            "type": "text-field",
+            "label": "transcriptie",
+            "value": "",
+            "minLines": 20,
+            "multiline": true
+          }
+        ]
+      }
+    },
+    "structure": {
+      "id": "3f79b1b4-a12f-437d-9bfb-de70d9d431fb",
+      "type": "choice",
+      "label": "Brugse Vrije - gebruikerstest",
+      "items": [
+        {
+          "id": "24bfca5c-cc06-480a-acd3-5ccdecec8e82",
+          "type": "model",
+          "label": "Default",
+          "fields": [
+            "transcriptie"
+          ]
+        }
+      ]
+    }
+  }
+}
