@@ -1,0 +1,204 @@
+{
+  "type": "template-45-transcriptie-en-vertaling",
+  "metadata": {
+    "label": "Transcription and Translation",
+    "description": "An export of project transcriptie-en-vertaling",
+    "version": "1.0.0"
+  },
+  "configuration": {
+    "defaults": {
+      "allowCollectionNavigation": true,
+      "allowManifestNavigation": true,
+      "allowCanvasNavigation": true,
+      "randomlyAssignCanvas": false,
+      "priorityRandomness": true,
+      "claimGranularity": "canvas",
+      "maxContributionsPerResource": false,
+      "allowSubmissionsWhenCanvasComplete": true,
+      "randomlyAssignReviewer": false,
+      "manuallyAssignedReviewer": null,
+      "adminsAreReviewers": true,
+      "hideCompletedResources": false,
+      "revisionApprovalsRequired": 20,
+      "contributionWarningTime": false,
+      "skipAutomaticOCRImport": false,
+      "allowPersonalNotes": false,
+      "defaultEditorOrientation": "horizontal",
+      "skipManifestListingPage": false,
+      "hideStatistics": false,
+      "hideProjectCollectionNavigation": false,
+      "hideProjectManifestNavigation": false,
+      "searchStrategy": "websearch",
+      "hideManifestMetadataOnCanvas": false,
+      "hideCanvasThumbnailNavigation": false,
+      "showSearchFacetCount": false,
+      "miradorCanvasPage": false,
+      "universalViewerCanvasPage": false,
+      "contributionMode": "annotation",
+      "shortExpiryTime": "10",
+      "longExpiryTime": "1440",
+      "modelPageShowAnnotations": "when-open",
+      "modelPageShowDocument": "when-open",
+      "atlasBackground": "#f9f9f9",
+      "canvasPageShowAnnotations": "when-open",
+      "canvasPageShowDocument": "when-open",
+      "reviewOptions": {
+        "allowMerging": false
+      },
+      "modelPageOptions": {
+        "fixedTranscriptionBar": false,
+        "preventContributionAfterRejection": false,
+        "preventContributionAfterSubmission": false,
+        "preventMultipleUserSubmissionsPerResource": false,
+        "preventContributionAfterManifestUnassign": false,
+        "hideViewerControls": false
+      },
+      "projectPageOptions": {
+        "hideStartContributing": false,
+        "hideSearchButton": true,
+        "hideRandomManifest": true,
+        "hideRandomCanvas": true,
+        "reviewerDashboard": true
+      },
+      "manifestPageOptions": {
+        "hideStartContributing": false,
+        "hideOpenInMirador": true,
+        "hideSearchButton": true,
+        "hideRandomCanvas": true,
+        "hideFilterImages": true,
+        "directModelPage": false
+      },
+      "headerOptions": {
+        "hideSiteTitle": false,
+        "hideProjectsLink": false,
+        "hideCollectionsLink": false,
+        "hideDashboardLink": false,
+        "hidePageNavLinks": false,
+        "hideSearchBar": false
+      },
+      "searchOptions": {
+        "nonLatinFulltext": false,
+        "searchMultipleFields": false,
+        "onlyShowManifests": false
+      },
+      "activityStreams": {
+        "manifest": true,
+        "canvas": false,
+        "curated": true,
+        "published": false
+      },
+      "metadataSuggestions": {
+        "collection": false,
+        "manifest": false,
+        "canvas": false
+      }
+    }
+  },
+  "captureModel": {
+    "document": {
+      "id": "c76edb23-7a38-4e7b-867c-da37a3860e1f",
+      "type": "entity",
+      "label": "Transcriptie en Vertaling",
+      "properties": {
+        "Transcriptie en Vertaling": [
+          {
+            "id": "6689b54b-8caf-42e5-9909-ee3ef74b1040",
+            "type": "entity",
+            "label": "Transcriptie en Vertaling",
+            "selector": {
+              "id": "b3451165-871c-4f71-902e-ca9e29fe235d",
+              "type": "box-selector",
+              "state": null
+            },
+            "properties": {
+              "Vertaling": [
+                {
+                  "id": "b165ad97-d6b5-4d70-9c3b-7b455dd5efbd",
+                  "type": "text-field",
+                  "label": "Translation",
+                  "value": "",
+                  "multiline": true,
+                  "description": "Translate the region (to Dutch/English)."
+                }
+              ],
+              "Transcriptie": [
+                {
+                  "id": "fedd4ce2-0247-42d1-b262-820c65c25140",
+                  "type": "text-field",
+                  "label": "Transcription",
+                  "value": "",
+                  "multiline": true,
+                  "description": "Transcribe the region."
+                }
+              ],
+              "Original language": [
+                {
+                  "id": "ebde6ee7-f084-4ec7-82ee-39c290c321ee",
+                  "type": "dropdown-field",
+                  "label": "Original language",
+                  "value": null,
+                  "options": [
+                    {
+                      "text": " English",
+                      "value": "English"
+                    },
+                    {
+                      "text": " Dutch",
+                      "value": "Dutch"
+                    },
+                    {
+                      "text": " German",
+                      "value": "German"
+                    },
+                    {
+                      "text": " Latin",
+                      "value": "Latin"
+                    },
+                    {
+                      "text": " Italian",
+                      "value": "Italian"
+                    },
+                    {
+                      "text": " Portuguese",
+                      "value": "Portuguese"
+                    },
+                    {
+                      "text": " Spanish",
+                      "value": "Spanish"
+                    },
+                    {
+                      "text": " French",
+                      "value": "French"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "structure": {
+      "id": "314f3e96-04ec-4fb4-9ead-22ec99334aec",
+      "type": "choice",
+      "label": "Transcriptie en Vertaling",
+      "items": [
+        {
+          "id": "f294abca-932c-49d5-aace-4a82ee0b296c",
+          "type": "model",
+          "label": "Default",
+          "fields": [
+            [
+              "Transcriptie en Vertaling",
+              [
+                "Transcriptie",
+                "Original language",
+                "Vertaling"
+              ]
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

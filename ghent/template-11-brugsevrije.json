@@ -1,0 +1,153 @@
+{
+  "type": "template-11-brugsevrije",
+  "metadata": {
+    "label": "Brugse Vrije (test)",
+    "description": "An export of project brugsevrije",
+    "version": "1.0.0"
+  },
+  "configuration": {
+    "defaults": {
+      "allowCollectionNavigation": true,
+      "allowManifestNavigation": false,
+      "allowCanvasNavigation": true,
+      "randomlyAssignCanvas": false,
+      "priorityRandomness": true,
+      "claimGranularity": "manifest",
+      "maxContributionsPerResource": "2",
+      "allowSubmissionsWhenCanvasComplete": false,
+      "randomlyAssignReviewer": false,
+      "manuallyAssignedReviewer": null,
+      "adminsAreReviewers": true,
+      "hideCompletedResources": true,
+      "revisionApprovalsRequired": 1,
+      "contributionWarningTime": false,
+      "skipAutomaticOCRImport": false,
+      "allowPersonalNotes": false,
+      "defaultEditorOrientation": "horizontal",
+      "skipManifestListingPage": false,
+      "hideStatistics": false,
+      "hideProjectCollectionNavigation": true,
+      "hideProjectManifestNavigation": true,
+      "searchStrategy": "websearch",
+      "hideManifestMetadataOnCanvas": true,
+      "hideCanvasThumbnailNavigation": false,
+      "showSearchFacetCount": false,
+      "miradorCanvasPage": false,
+      "universalViewerCanvasPage": false,
+      "contributionMode": "transcription",
+      "shortExpiryTime": "120",
+      "longExpiryTime": "4320",
+      "modelPageShowAnnotations": "when-open",
+      "modelPageShowDocument": "when-open",
+      "atlasBackground": "#f9f9f9",
+      "canvasPageShowAnnotations": "when-open",
+      "canvasPageShowDocument": "when-open",
+      "reviewOptions": {
+        "allowMerging": false
+      },
+      "modelPageOptions": {
+        "fixedTranscriptionBar": true,
+        "preventContributionAfterRejection": false,
+        "preventContributionAfterSubmission": false,
+        "preventMultipleUserSubmissionsPerResource": false,
+        "preventContributionAfterManifestUnassign": false
+      },
+      "projectPageOptions": {
+        "hideStartContributing": false,
+        "hideSearchButton": false,
+        "hideRandomManifest": false,
+        "hideRandomCanvas": false
+      },
+      "manifestPageOptions": {
+        "hideStartContributing": false,
+        "hideOpenInMirador": true,
+        "hideSearchButton": true,
+        "hideRandomCanvas": true,
+        "hideFilterImages": true,
+        "directModelPage": false
+      },
+      "headerOptions": {
+        "hideSiteTitle": false,
+        "hideProjectsLink": true,
+        "hideCollectionsLink": false,
+        "hideDashboardLink": false,
+        "hidePageNavLinks": true,
+        "hideSearchBar": true
+      },
+      "searchOptions": {
+        "nonLatinFulltext": false,
+        "searchMultipleFields": false
+      },
+      "activityStreams": {
+        "manifest": true,
+        "canvas": false,
+        "curated": true,
+        "published": false
+      },
+      "metadataSuggestions": {
+        "collection": false,
+        "manifest": false,
+        "canvas": false
+      }
+    }
+  },
+  "captureModel": {
+    "document": {
+      "id": "c5e8c949-9042-4b47-ac8f-b89495cc401b",
+      "type": "entity",
+      "label": "Brugse Vrije",
+      "properties": {
+        "metvet": [
+          {
+            "id": "ca776927-4cea-407a-ba0a-076e4e9b6ac7",
+            "type": "html-field",
+            "label": "metvet",
+            "value": ""
+          }
+        ],
+        "taggedtexts": [
+          {
+            "id": "71871bbd-98fd-4df5-975d-0f2f0c8efe70",
+            "type": "tagged-text-field",
+            "label": "taggedtexts",
+            "value": "",
+            "preset": "bentham"
+          }
+        ],
+        "vraag-antwoord-transcriptie": [
+          {
+            "id": "fad53127-9f00-448c-ad44-a29cbd9eec4c",
+            "type": "text-field",
+            "label": "vraag-antwoord-transcriptie",
+            "value": "",
+            "minLines": 10,
+            "selector": {
+              "id": "32b65d02-a2b8-4158-b171-3a25e6777012",
+              "type": "box-selector",
+              "state": null
+            },
+            "multiline": true,
+            "allowMultiple": true
+          }
+        ]
+      }
+    },
+    "structure": {
+      "id": "d5b88cc5-e789-4f97-aad3-c0ea5ade4a50",
+      "type": "choice",
+      "label": "Brugse Vrije",
+      "items": [
+        {
+          "id": "43709953-f7a5-4d43-91ac-8ba2afe33ab3",
+          "type": "model",
+          "label": "Default",
+          "fields": [
+            "vraag-antwoord-transcriptie",
+            "metvet",
+            "taggedtexts"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "type": "template-38-PostkaartenAmsabBoekentoren",
+  "metadata": {
+    "label": "Postkaarten op de kaart",
+    "description": "An export of project PostkaartenAmsabBoekentoren",
+    "version": "1.0.0"
+  },
+  "configuration": {
+    "defaults": {
+      "allowCollectionNavigation": true,
+      "allowManifestNavigation": true,
+      "allowCanvasNavigation": true,
+      "randomlyAssignCanvas": false,
+      "priorityRandomness": true,
+      "claimGranularity": "manifest",
+      "maxContributionsPerResource": "1",
+      "allowSubmissionsWhenCanvasComplete": false,
+      "randomlyAssignReviewer": false,
+      "manuallyAssignedReviewer": null,
+      "adminsAreReviewers": true,
+      "hideCompletedResources": false,
+      "revisionApprovalsRequired": 1,
+      "contributionWarningTime": "10",
+      "skipAutomaticOCRImport": false,
+      "allowPersonalNotes": false,
+      "defaultEditorOrientation": "horizontal",
+      "skipManifestListingPage": false,
+      "hideStatistics": false,
+      "hideProjectCollectionNavigation": false,
+      "hideProjectManifestNavigation": false,
+      "searchStrategy": "websearch",
+      "hideManifestMetadataOnCanvas": false,
+      "hideCanvasThumbnailNavigation": false,
+      "showSearchFacetCount": false,
+      "miradorCanvasPage": false,
+      "universalViewerCanvasPage": false,
+      "contributionMode": "annotation",
+      "shortExpiryTime": "1",
+      "longExpiryTime": "2",
+      "modelPageShowAnnotations": "when-open",
+      "modelPageShowDocument": "when-open",
+      "atlasBackground": "#f9f9f9",
+      "canvasPageShowAnnotations": "when-open",
+      "canvasPageShowDocument": "when-open",
+      "reviewOptions": {
+        "allowMerging": false
+      },
+      "modelPageOptions": {
+        "fixedTranscriptionBar": false,
+        "preventContributionAfterRejection": false,
+        "preventContributionAfterSubmission": false,
+        "preventMultipleUserSubmissionsPerResource": false,
+        "preventContributionAfterManifestUnassign": false,
+        "hideViewerControls": false
+      },
+      "projectPageOptions": {
+        "hideStartContributing": false,
+        "hideSearchButton": false,
+        "hideRandomManifest": true,
+        "hideRandomCanvas": true,
+        "reviewerDashboard": true
+      },
+      "manifestPageOptions": {
+        "hideStartContributing": false,
+        "hideOpenInMirador": false,
+        "hideSearchButton": false,
+        "hideRandomCanvas": true,
+        "hideFilterImages": false,
+        "directModelPage": false
+      },
+      "headerOptions": {
+        "hideSiteTitle": false,
+        "hideProjectsLink": false,
+        "hideCollectionsLink": false,
+        "hideDashboardLink": false,
+        "hidePageNavLinks": false,
+        "hideSearchBar": false
+      },
+      "searchOptions": {
+        "nonLatinFulltext": false,
+        "searchMultipleFields": false,
+        "onlyShowManifests": true
+      },
+      "activityStreams": {
+        "manifest": true,
+        "canvas": false,
+        "curated": true,
+        "published": false
+      },
+      "metadataSuggestions": {
+        "collection": false,
+        "manifest": false,
+        "canvas": false
+      }
+    }
+  },
+  "captureModel": {
+    "document": {
+      "id": "293db7fa-f231-40bd-95e6-e973a3f8577d",
+      "type": "entity",
+      "label": "Postkaarten op de kaart",
+      "properties": {
+        "plaats": [
+          {
+            "id": "d4687e6e-0844-4b4c-b8ed-f32ee56da72a",
+            "type": "autocomplete-field",
+            "label": "Plaats ",
+            "value": null,
+            "dataSource": "https://staging.gentgemapt.ugent.be/backend/api/gentgemapt/place/lookup?t=%",
+            "allowMultiple": true
+          }
+        ],
+        "datering": [
+          {
+            "id": "c9268704-baf9-4d68-9af9-555c593d4d5d",
+            "type": "checkbox-list-field",
+            "label": "Datering",
+            "value": {},
+            "options": [
+              {
+                "label": "1850-1900",
+                "value": "1850-1900"
+              },
+              {
+                "label": "1901-1950",
+                "value": "1901-1950"
+              },
+              {
+                "label": "1951-2000",
+                "value": "1951-2000"
+              }
+            ],
+            "clearable": true
+          }
+        ],
+        "Franse naam": [
+          {
+            "id": "135d4b56-6a31-4f63-b33c-323f5b36a4a0",
+            "type": "text-field",
+            "label": "Franse naam",
+            "value": "",
+            "description": "Franse naam van de locatie"
+          }
+        ],
+        "Kleurenkaart": [
+          {
+            "id": "c3dc100f-1a44-47c3-b355-81fda3668289",
+            "type": "checkbox-field",
+            "label": "Kleurenkaart",
+            "value": false,
+            "description": "Is de postkaart in kleur?"
+          }
+        ],
+        "menselijkeaanwezigheid": [
+          {
+            "id": "1ed6f0c9-d5a6-48da-8eb8-299aa9c295c6",
+            "type": "checkbox-field",
+            "label": "Mensen",
+            "value": false,
+            "selector": {
+              "id": "48deb6be-d2a4-4569-931e-f304c0a3f94e",
+              "type": "box-selector",
+              "state": null,
+              "required": true
+            },
+            "allowMultiple": true
+          }
+        ]
+      }
+    },
+    "structure": {
+      "id": "7f215958-6889-4aa8-94f6-ee5e3c31a173",
+      "type": "choice",
+      "profile": [
+        "tabs"
+      ],
+      "label": "Postkaarten op de kaart",
+      "items": [
+        {
+          "id": "b7847f9b-ec49-47e5-a5bc-187c421ef0f6",
+          "type": "model",
+          "description": "Welke plaats in Gent is te zien op de postkaart?",
+          "label": "Plaats?",
+          "fields": [
+            "plaats",
+            "Franse naam"
+          ],
+          "instructions": "Welke Gentse plaats of straat herken je op de postkaart? Selecteer deze uit de plaatslijst.\n\nStaat de locatie ook in het Frans vernoemd? Geef die vertaling dan ook mee."
+        },
+        {
+          "id": "58f1ba9e-2014-41a5-b619-280fb141bad4",
+          "type": "model",
+          "description": "Uit welke tijd stamt deze postkaart?",
+          "label": "Datering?",
+          "fields": [
+            "datering"
+          ],
+          "instructions": "Staat een datum op de postkaart vermeld? Of weet jij wanneer de kaart werd gepubliceerd? \nVink dan aan welke periode van toepassing is."
+        },
+        {
+          "id": "2d6e4f6b-0fb4-415e-9b6f-ce63f00b62df",
+          "type": "model",
+          "description": "Zijn er mensen te zien op de postkaart?",
+          "label": "Mensen?",
+          "fields": [
+            "menselijkeaanwezigheid"
+          ],
+          "instructions": "Zie je mensen op de postkaart staan? Selecteer ze eerst in het beeld en vink daarna het vakje aan."
+        },
+        {
+          "id": "af07e4db-f4b7-47a4-b541-8d769e78f686",
+          "type": "model",
+          "description": "Is de postkaart in kleur?",
+          "label": "Kaart in kleur?",
+          "fields": [
+            "Kleurenkaart"
+          ],
+          "instructions": "Als de postkaart in kleur werd gepubliceerd, vink dan het vakje aan."
+        }
+      ]
+    }
+  }
+}

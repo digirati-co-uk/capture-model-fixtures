@@ -1,0 +1,141 @@
+{
+  "type": "template-3-melijn",
+  "metadata": {
+    "label": "Melijn",
+    "description": "An export of project melijn",
+    "version": "1.0.0"
+  },
+  "configuration": {
+    "defaults": {
+      "allowCollectionNavigation": true,
+      "allowManifestNavigation": true,
+      "allowCanvasNavigation": true,
+      "randomlyAssignCanvas": false,
+      "priorityRandomness": true,
+      "claimGranularity": "canvas",
+      "maxContributionsPerResource": false,
+      "allowSubmissionsWhenCanvasComplete": false,
+      "randomlyAssignReviewer": false,
+      "manuallyAssignedReviewer": null,
+      "adminsAreReviewers": true,
+      "hideCompletedResources": true,
+      "revisionApprovalsRequired": 20,
+      "contributionWarningTime": false,
+      "skipAutomaticOCRImport": false,
+      "allowPersonalNotes": false,
+      "defaultEditorOrientation": "horizontal",
+      "skipManifestListingPage": false,
+      "hideStatistics": false,
+      "hideProjectCollectionNavigation": false,
+      "hideProjectManifestNavigation": false,
+      "searchStrategy": "websearch",
+      "hideManifestMetadataOnCanvas": true,
+      "hideCanvasThumbnailNavigation": false,
+      "showSearchFacetCount": false,
+      "miradorCanvasPage": false,
+      "universalViewerCanvasPage": false,
+      "contributionMode": "annotation",
+      "shortExpiryTime": "10",
+      "longExpiryTime": "1440",
+      "modelPageShowAnnotations": "when-open",
+      "modelPageShowDocument": "when-open",
+      "atlasBackground": "#f9f9f9",
+      "canvasPageShowAnnotations": "when-open",
+      "canvasPageShowDocument": "when-open",
+      "reviewOptions": {
+        "allowMerging": false
+      },
+      "modelPageOptions": {
+        "fixedTranscriptionBar": false,
+        "preventContributionAfterRejection": false,
+        "preventContributionAfterSubmission": false,
+        "preventMultipleUserSubmissionsPerResource": false,
+        "preventContributionAfterManifestUnassign": false
+      },
+      "projectPageOptions": {
+        "hideStartContributing": false,
+        "hideSearchButton": false,
+        "hideRandomManifest": false,
+        "hideRandomCanvas": false
+      },
+      "manifestPageOptions": {
+        "hideStartContributing": false,
+        "hideOpenInMirador": false,
+        "hideSearchButton": false,
+        "hideRandomCanvas": false,
+        "hideFilterImages": false,
+        "directModelPage": false
+      },
+      "headerOptions": {
+        "hideSiteTitle": false,
+        "hideProjectsLink": false,
+        "hideCollectionsLink": false,
+        "hideDashboardLink": false,
+        "hidePageNavLinks": false,
+        "hideSearchBar": false
+      },
+      "searchOptions": {
+        "nonLatinFulltext": false,
+        "searchMultipleFields": false
+      },
+      "activityStreams": {
+        "manifest": true,
+        "canvas": false,
+        "curated": true,
+        "published": false
+      },
+      "metadataSuggestions": {
+        "collection": false,
+        "manifest": false,
+        "canvas": false
+      }
+    }
+  },
+  "captureModel": {
+    "document": {
+      "id": "cd21dcae-bf6e-4137-9f46-73841d8c8d2f",
+      "type": "entity",
+      "label": "Melijn",
+      "properties": {
+        "ocr": [
+          {
+            "id": "faac64b5-5e7b-4f41-9790-5525cdf83329",
+            "type": "madoc-paragraphs",
+            "label": "ocr",
+            "value": "",
+            "selector": {
+              "id": "b42fb1f9-0b4c-446d-9ad9-320864abe97d",
+              "type": "box-selector",
+              "state": null
+            }
+          }
+        ]
+      }
+    },
+    "structure": {
+      "id": "a1f3e6c0-1a5a-4269-a00a-3ba44b27252e",
+      "type": "choice",
+      "label": "Melijn",
+      "items": [
+        {
+          "id": "4b7d89c2-1071-4f40-9903-3936d985f0e6",
+          "type": "model",
+          "label": "Default",
+          "fields": [
+            [
+              "ocr",
+              [
+                [
+                  "lines",
+                  [
+                    "text"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

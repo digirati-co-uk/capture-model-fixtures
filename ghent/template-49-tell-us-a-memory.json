@@ -1,0 +1,139 @@
+{
+  "type": "template-49-tell-us-a-memory!",
+  "metadata": {
+    "label": "Tell us a memory!",
+    "description": "An export of project tell-us-a-memory!",
+    "version": "1.0.0"
+  },
+  "configuration": {
+    "defaults": {
+      "allowCollectionNavigation": true,
+      "allowManifestNavigation": true,
+      "allowCanvasNavigation": true,
+      "randomlyAssignCanvas": false,
+      "priorityRandomness": true,
+      "claimGranularity": "canvas",
+      "maxContributionsPerResource": false,
+      "allowSubmissionsWhenCanvasComplete": true,
+      "randomlyAssignReviewer": false,
+      "manuallyAssignedReviewer": null,
+      "adminsAreReviewers": true,
+      "hideCompletedResources": false,
+      "revisionApprovalsRequired": 20,
+      "contributionWarningTime": false,
+      "skipAutomaticOCRImport": false,
+      "allowPersonalNotes": false,
+      "defaultEditorOrientation": "horizontal",
+      "skipManifestListingPage": false,
+      "hideStatistics": false,
+      "hideProjectCollectionNavigation": false,
+      "hideProjectManifestNavigation": false,
+      "searchStrategy": "websearch",
+      "hideManifestMetadataOnCanvas": false,
+      "hideCanvasThumbnailNavigation": false,
+      "showSearchFacetCount": false,
+      "miradorCanvasPage": false,
+      "universalViewerCanvasPage": false,
+      "contributionMode": "annotation",
+      "shortExpiryTime": "10",
+      "longExpiryTime": "1440",
+      "modelPageShowAnnotations": "when-open",
+      "modelPageShowDocument": "when-open",
+      "atlasBackground": "#f9f9f9",
+      "canvasPageShowAnnotations": "when-open",
+      "canvasPageShowDocument": "when-open",
+      "reviewOptions": {
+        "allowMerging": false
+      },
+      "modelPageOptions": {
+        "fixedTranscriptionBar": false,
+        "preventContributionAfterRejection": false,
+        "preventContributionAfterSubmission": false,
+        "preventMultipleUserSubmissionsPerResource": false,
+        "preventContributionAfterManifestUnassign": false,
+        "hideViewerControls": false
+      },
+      "projectPageOptions": {
+        "hideStartContributing": false,
+        "hideSearchButton": false,
+        "hideRandomManifest": true,
+        "hideRandomCanvas": true,
+        "reviewerDashboard": true
+      },
+      "manifestPageOptions": {
+        "hideStartContributing": false,
+        "hideOpenInMirador": false,
+        "hideSearchButton": false,
+        "hideRandomCanvas": true,
+        "hideFilterImages": false,
+        "directModelPage": false
+      },
+      "headerOptions": {
+        "hideSiteTitle": false,
+        "hideProjectsLink": false,
+        "hideCollectionsLink": false,
+        "hideDashboardLink": false,
+        "hidePageNavLinks": false,
+        "hideSearchBar": false
+      },
+      "searchOptions": {
+        "nonLatinFulltext": false,
+        "searchMultipleFields": false,
+        "onlyShowManifests": false
+      },
+      "activityStreams": {
+        "manifest": true,
+        "canvas": false,
+        "curated": true,
+        "published": false
+      },
+      "metadataSuggestions": {
+        "collection": false,
+        "manifest": false,
+        "canvas": false
+      }
+    }
+  },
+  "captureModel": {
+    "document": {
+      "id": "f7c98442-30fd-4c88-aeba-86ab67841178",
+      "type": "entity",
+      "label": "Tell us a memory!",
+      "properties": {
+        "Your Memory": [
+          {
+            "id": "5d6dd2c9-31ce-4ecd-bd8b-cf64a863c75c",
+            "type": "text-field",
+            "label": "Your memory",
+            "value": "",
+            "multiline": true
+          }
+        ],
+        "Year of Birth": [
+          {
+            "id": "15b230c7-b6bc-4667-a690-ef3a85335f86",
+            "type": "text-field",
+            "label": "Year of birth",
+            "value": ""
+          }
+        ]
+      }
+    },
+    "structure": {
+      "id": "3e34caae-e1bb-486f-96c4-bf4dece625c6",
+      "type": "choice",
+      "label": "Tell us a memory!",
+      "items": [
+        {
+          "id": "3b97ead5-041b-40e4-8fe8-a311e4815fb5",
+          "type": "model",
+          "label": "Default",
+          "fields": [
+            "Year of Birth",
+            "Your Memory"
+          ]
+        }
+      ]
+    }
+  }
+}
